@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+
+
+.hero {
+    height: 100vh;
+    background: url('./hero.jpg');
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.hero h1 {
+    padding-top: 12%;
+    margin: 0;
+    font-family: Raleway;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero p {
+    padding-top: 2%;
+    padding-left: 5%;
+    width: 90%;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.current {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.current h1 {
+    font-family: Raleway;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0072BB;
+}
+
+
+.prev {
+    text-align: center;
+}
+
+.prev h1 {
+    font-family: Raleway;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0072BB;
+}
