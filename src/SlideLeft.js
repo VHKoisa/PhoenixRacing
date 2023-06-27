@@ -5,16 +5,16 @@ const SlideLeft = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const images = [
-    { url: 'spons2.jpg', title: 'Image 1' },
-    { url: 'spons2.jpg', title: 'Image 2' },
-    { url: 'spons2.jpg', title: 'Image 3' },
-    { url: 'spons2.jpg', title: 'Image 4' },
-    { url: 'spons2.jpg', title: 'Image 5' },
-    { url: 'spons2.jpg', title: 'Image 6' },
-    { url: 'spons2.jpg', title: 'Image 7' },
-    { url: 'spons2.jpg', title: 'Image 8' },
-    { url: 'spons2.jpg', title: 'Image 9' },
-    { url: 'spons2.jpg', title: 'Image 10' },
+    { url: 'spons3.png', title: 'Image 1' },
+    { url: 'spons3.png', title: 'Image 2' },
+    { url: 'spons3.png', title: 'Image 3' },
+    { url: 'spons3.png', title: 'Image 4' },
+    { url: 'spons3.png', title: 'Image 5' },
+    { url: 'spons3.png', title: 'Image 6' },
+    { url: 'spons3.png', title: 'Image 7' },
+    { url: 'spons3.png', title: 'Image 8' },
+    { url: 'spons3.png', title: 'Image 9' },
+    { url: 'spons3.png', title: 'Image 10' },
     // Add more images here
   ];
 
@@ -50,12 +50,6 @@ const SlideLeft = () => {
           </div>
         ))}
       </div>
-      {/* <button className="slider-button prev" onClick={slideLeft}>
-        Prev
-      </button>
-      <button className="slider-button next" onClick={nextSlide}>
-        Next
-      </button> */}
     </div>
   );
 };
