@@ -1,9 +1,10 @@
 import React from 'react'
 import "./Sponsors.css"
 import Gallery from './Gallery'
-import SlideLeft from './SlideLeft';
+import Slider from './Slider';
 import SlideRight from './SlideRight';
 import Navbar from './Navbar'
+import Footer from './Footer';
 
 export default function Sponsors() {
     return (
@@ -19,9 +20,10 @@ export default function Sponsors() {
             </div>
             <div className='prev'>
                 <h1>Previous Sponsors</h1>
-                <SlideLeft/>
+                <Slider/>
                 <SlideRight/>
             </div>
+            <Footer/>
         </div>
     )
 }
