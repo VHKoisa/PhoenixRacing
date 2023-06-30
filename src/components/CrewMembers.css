@@ -1,0 +1,180 @@
+.crew-members {
+    margin: 0;
+    padding: 0;
+    background-color: #F6F5F7;
+
+}
+
+.crew-hero {
+    background: url('./img.png');
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100vw;
+}
+
+.crew-hero p {
+    width: 80vw;
+    padding-left: 10vw;
+    padding-top: 30vh;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.team {
+    width: 86vw;
+    margin-left: 6vw;
+    height: fit-content;
+    padding-bottom: 25px;
+}
+
+.heading {
+    padding-top: 50px;
+    font-family: Raleway;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0072BB;
+    margin-bottom: 0;
+}
+
+.thick-line {
+    border-top: 4px solid #0072BB;
+}
+
+.thin-line {
+    border-bottom: 2px solid #0072BB;
+}
+
+
+
+.technical {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.technical-heading {
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0072BB;
+}
+
+.technical-crew {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+
+.managerial {
+    height: auto;
+    padding: 50px 0px;
+    width: 86vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.managerial-heading {
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0072BB;
+    padding: 10vh 0;
+    margin-bottom: 0;
+}
+
+.managers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.department {
+    font-family: Raleway;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0072BB;
+    margin-top: 20vh;
+    margin-bottom: 0;
+}
+
+.electrical {
+    padding-top: 10vh;
+
+}
+
+.black-line {
+    border-top: 4px solid #6E6E73;
+
+}
+.black-light-line {
+    border-top: 2px solid #6E6E73;
+
+}
+
+.web-member {
+    padding: 5vh 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.web-member h1 {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0072BB;
+}
+
+.web-member p {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #6E6E73;
+}
+
+.web-member img {
+    width: 24px ;
+    height: 24px;
+}
+
+@media (max-width: 767px) {
+
+    .crew-hero {
+        height: fit-content;
+    }
+
+    .technical {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .managerial {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

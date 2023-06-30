@@ -1,0 +1,53 @@
+.crew-card {
+    height: fit-content;
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    width: 18vw;
+    height: auto;
+}
+
+.name  {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0072BB;
+    margin: 0;
+    text-decoration: none;
+}
+
+.position {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: #6E6E73;
+    margin-bottom : 1px;
+    text-decoration: none;
+}
+
+.linked-in{
+    height: 24px;
+    width: 24px;
+}
+
+.linked-in:hover{
+    cursor: pointer;
+}
+
+
+@media (max-width: 767px) {
+    .crew-card{
+        height: 40vh;
+        width: 18vw;
+    }
+}

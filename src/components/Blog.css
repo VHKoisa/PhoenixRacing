@@ -1,0 +1,138 @@
+.blog-post {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cover-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.author {
+    font-size: 16px;
+    color: #666;
+    text-align: left;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.content {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    text-align: left;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.content h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.content h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content h5,
+.content h6 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content p {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.content a {
+    color: #0077cc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.content a:hover {
+    color: #005299;
+}
+
+.content ul,
+.content ol {
+    margin-left: 20px;
+    font-size: 16px;
+    color: #555;
+    list-style-position: outside;
+    text-align: left;
+    padding-left: 0;
+}
+
+.content ul li,
+.content ol li {
+    margin-bottom: 5px;
+}
+
+/* Add margin to the top of each heading */
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+    margin-top: 20px;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 36px;
+    }
+
+    .author {
+        font-size: 14px;
+    }
+
+    .content {
+        font-size: 16px;
+    }
+}
