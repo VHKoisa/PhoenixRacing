@@ -59,7 +59,7 @@ const Sponsors = () => {
             </div>
             <div className='prev'>
                 <h1>Previous Sponsors</h1>
-               <a href={link}>  <Gallery images={prevSponsors} /></a>
+                <Gallery images={prevSponsors} />
             </div>
             <div className="sponsor-btn">
                 <Connect title="Interested in sponsoring us?" btnName="Contact Us" />
