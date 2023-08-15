@@ -7,14 +7,15 @@ import { Helmet } from 'react-helmet';
 
 const Sponsors = () => {
     const currentSponsors = [
-        { url: 'sponsors/2023-24/20230116_Bender_LOGO_Yellow.png', title: 'Image 1' },
-        { url: 'sponsors/2023-24/agni-logo.png', title: 'Image 2' },
-        { url: 'sponsors/2023-24/ansys.png', title: 'Image 3' },
-        { url: 'sponsors/2023-24/mathworks-logo-full-color-rgb.png', title: 'Image 4' },
-        { url: 'sponsors/2023-24/NIT_Surat_Logo.svg.png', title: 'Image 5' },
-        { url: "sponsors/2023-24/Prayosha Logo.png", title: "" },
+        { url: 'sponsors/2023-24/20230116_Bender_LOGO_Yellow.png', title: 'Image 1', linl: "https://www.bender-in.com/" },
+        { url: 'sponsors/2023-24/agni-logo.png', title: 'Image 2', link: "https://www.agnimotors.com/" },
+        { url: 'sponsors/2023-24/ansys.png', title: 'Image 3', link: "https://www.ansys.com/en-in" },
+        { url: 'sponsors/2023-24/mathworks-logo-full-color-rgb.png', title: 'Image 4', link: "https://www.mathworks.com/" },
+        { url: 'sponsors/2023-24/NIT_Surat_Logo.svg.png', title: 'Image 5', link: "https://www.svnit.ac.in/" },
+        { url: "sponsors/2023-24/Prayosha Logo.png", title: "", link: "http://www.prayoshagroup.in/" },
     ];
     const prevSponsors = [
+
         { url: "sponsors/past/apollo-tyres-logo.png", title: "", link: "https://shop.apollotyres.com/" },
         { url: "sponsors/past/canerabank.png", title: "", link: "https://canarabank.com/" },
         { url: "sponsors/past/ceat.png", title: "", link: "https://www.ceat.com/" },
@@ -28,6 +29,8 @@ const Sponsors = () => {
         { url: "sponsors/past/sopan.png", title: "", link: "https://sied.in/" },
         { url: "sponsors/past/tata-motors-logo-3.png", title: "", link: "https://www.tata.com/home-page" },
         { url: "sponsors/past/toyota.png", title: "", link: "https://www.toyotabharat.com/" },
+
+
     ]
     return (
         <div className='sponsor'>
