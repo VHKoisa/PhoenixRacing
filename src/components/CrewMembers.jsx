@@ -29,7 +29,7 @@ const team2025 = [
   {
     name: "Jay Pokal",
     // image: "https://drive.google.com/uc?export=view&id=189my4btV-V6vX3Y7AxyfkNb6VP1FOa0n",
-    image: "/team/2025/jay pokal.png",
+    image: "/team/2025/jay pokal.jpg",
     position: "Head",
     department: "Powertrain",
     section: "technical",
@@ -119,7 +119,7 @@ const team2025 = [
   {
     name: "Niteesh J",
     // image: "https://drive.google.com/uc?export=view&id=1k1GTxIQ-4G7pwr1ya4WjLRf1FGE7ztUh",
-    image: "/team/2025/NITEESH J SVNIT.jpg",
+    image: "/team/2025/N J.jpg",
     position: "Team Member",
     department: "Sns",
     section: "managerial",
@@ -191,7 +191,7 @@ const team2025 = [
   {
     name: "Jaykumar Gohel",
     // image: "https://drive.google.com/uc?export=view&id=1uYyjYg52oyMzNXLGkvhsVBiWp80pLD2m",
-    image: "/team/2025/JAYKUMAR GOHEL SVNIT.jpg",
+    image: "/team/2025/Jay.jpg",
     position: "Team Member",
     department: "Electrical",
     text: "https://www.linkedin.com/in/jay-gohel-85a1a0254"
@@ -227,7 +227,7 @@ const team2025 = [
   {
     name: "Abhishek Pandya",
     // image: "https://drive.google.com/uc?export=view&id=1Adt0CFhIwQXUv9BT4dk8n3hw5ZdRD2ts",
-    image: "/team/2025/Abhi - PANDYA ABHISHEK GIRISHBHAI SVNIT.jpg",
+    image: "/team/2025/Abhishek Pandya.jpg",
     position: "Team Member",
     department: "Brakes",
     text: "https://www.linkedin.com/in/abhishek-pandya-016083277/"
@@ -253,7 +253,7 @@ const team2025 = [
   {
     name: "Rishabh Gondane",
     // image: "https://drive.google.com/uc?export=view&id=1327v6OWUY1nCBLruOqHvRCrQEzICyB7p",
-    image: "/team/2025/GONDANE RISHABH CHANDRAKANT SVNIT.jpg",
+    image: "/team/2025/Rishabh Gondane.jpg",
     position: "Team Member",
     department: "Brakes",
     text: "https://www.linkedin.com/in/rishabh-gondane-59a805249"
@@ -270,7 +270,7 @@ const team2025 = [
   {
     name: "Shrey Shalan",
     // image: "https://drive.google.com/uc?export=view&id=1zcQxo6yhPOGAGN_JAq1V-Zrdvgf4c0R1",
-    image: "/team/2025/SHREY SHALAN SVNIT.png",
+    image: "/team/2025/Shrey Shalan.jpg",
     position: "Team Member",
     department: "Electrical",
     text: "https://www.linkedin.com/in/shrey-shalan-97565a244"

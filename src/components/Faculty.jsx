@@ -9,7 +9,7 @@ const faculties = [
     mail: "bmh@med.svnit.ac.in"
   },
   {
-    name: "Rohan Pandey",
+    name: "Rohan Pande",
     image: "https://www.svnit.ac.in/web/department/Mechanical/images/rohan_rahul.jpg",
     position: "Assisstant Professor, PHD",
     mail: "rohanpande@med.svnit.ac.in"

@@ -164,7 +164,89 @@ const alumni2025 = [
     "company": "Montra electric ",
     "year": "2017",
     "text": "https://www.linkedin.com/in/amol06shinde"
-  }
+  },
+    {
+        "name": "Shubham Pandey",
+        "image": "https://drive.google.com/uc?export=view&id=13UDK5LkxOTrKaY0vcl_LOU9bGzU2wcZz",
+        "position": "Analyst",
+        "company": "Deloitte",
+        "year": "2023",
+        "text": "http://linkedin.com/in/shubham-kumar-pandey-3a46b21b3"
+    },
+    {
+        "name": "Tejas Agrawal",
+        "image": "https://drive.google.com/uc?export=view&id=16k7SZnONGjHN-d3DQLgBGRWKzx5W7W9d",
+        "position": "Job",
+        "company": "United Phosphorus Limited",
+        "year": "2023",
+        "text": "https://www.linkedin.com/in/tejas-agrawal-57a5951b7"
+    },
+    {
+        "name": "Shubham Lohar",
+        "image": "https://drive.google.com/uc?export=view&id=1jXrD_31RCeCV6963BX6KwsnHalkUIEhe",
+        "position": "Design Engineer",
+        "company": "John Deere",
+        "year": "2023",
+        "text": "https://www.linkedin.com/in/shubham-lohar"
+    },
+    {
+        "name": "Dhruvil Rakeshbhai Patel",
+        "image": "https://drive.google.com/uc?export=view&id=1NBb6MmyrD6PFa9cGUdxMszBnSVdtI3S4",
+        "position": "Engineer Trainee",
+        "company": "UPL",
+        "year": "2023",
+        "text": "https://www.linkedin.com/in/dhruvil-patel-8791ba1b8"
+    },
+    {
+        "name": "Rathod Chinmaykumar",
+        "image": "https://drive.google.com/uc?export=view&id=1sc7iyDiqSGN0DSYGsmlfojf6hwngt698",
+        "position": "GET",
+        "company": "JSW Steel, Mumbai",
+        "year": "2023",
+        "text": "https://www.linkedin.com/in/chinmay-26-rathod"
+    },
+      {
+          "name": "Janavi Popat",
+          "image": "https://drive.google.com/uc?export=view&id=1tpFOy2WtFNqERXTzDsEwYRjF_5JPX0mg",
+          "position": "GET",
+          "company": "Cairn Oil & Gas",
+          "year": "2023",
+          "text": "https://www.linkedin.com/in/janavi-popat"
+      },
+      {
+          "name": "Nishith Chaurasia",
+          "image": "https://drive.google.com/uc?export=view&id=1FNqehHXhHiARStXoe4ZAa6pNaAJSLfGW",
+          "position": "Graduate Engineer Trainee",
+          "company": "TVS Motors",
+          "year": "2023",
+          "text": "https://www.linkedin.com/in/nishith-chaurasia"
+      },
+      {
+          "name": "Krutin Parekh",
+          "image": "https://drive.google.com/uc?export=view&id=14fZw0GXtm6cXJO7QvgyOmP_Z35VL_NDf",
+          "position": "Electrical Manager",
+          "company": "Reliance",
+          "year": "2023",
+          "text": "https://www.linkedin.com/in/krutin-parekh/"
+      },
+      {
+          "name": "Aneesha Sengupta",
+          "image": "https://drive.google.com/uc?export=view&id=1forRMFCPJo4sO4t8FyeeraYpqC1-Br8e",
+          "position": "MS student",
+          "company": "Cornell University",
+          "year": "2023",
+          "text": "https://www.linkedin.com/in/aneesha-sengupta-850760194"
+      },
+      {
+          "name": "Suthar Omprakash Lunaram",
+          "image": "https://drive.google.com/uc?export=view&id=1jQIAktQx6pnwGh9Y4ixewXlaMqrIRRp7",
+          "position": "NA",
+          "company": "NA",
+          "year": "2023",
+          "text": "https://www.linkedin.com/in/omprakash-suthar-602991196"
+      }
+  
+
 ]
 
 
