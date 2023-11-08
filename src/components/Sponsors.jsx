@@ -12,7 +12,10 @@ const Sponsors = () => {
         { url: 'sponsors/2023-24/ansys.png', title: 'Image 3', link: "https://www.ansys.com/en-in" },
         { url: 'sponsors/2023-24/mathworks-logo-full-color-rgb.png', title: 'Image 4', link: "https://www.mathworks.com/" },
         { url: 'sponsors/2023-24/NIT_Surat_Logo.svg.png', title: 'Image 5', link: "https://www.svnit.ac.in/" },
-        { url: "sponsors/2023-24/Prayosha Logo.png", title: "", link: "http://www.prayoshagroup.in/" },
+        { url: "sponsors/2023-24/solidworks.jpg", title: "", link: "http://www.prayoshagroup.in/" },
+        { url: "sponsors/2023-24/flauta.png", title: "", link: "http://www.prayoshagroup.in/" },
+        { url: "sponsors/2023-24/amiorganics.png", title: "", link: "http://www.prayoshagroup.in/" },
+        { url: "sponsors/2023-24/aether.png", title: "", link: "http://www.prayoshagroup.in/" },
     ];
     const prevSponsors = [
 
