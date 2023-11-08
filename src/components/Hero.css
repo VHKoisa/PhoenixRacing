@@ -1,0 +1,94 @@
+.home-section{
+    min-height: 90vh;
+    /* border: 2px blue solid; */
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.home-title{
+    font-family: 'Racing Sans One';
+    font-size:clamp(3rem , 3.5rem + 10vw , 10rem);
+    margin-right:clamp(0rem , 1vw , 5rem);
+    color: var(--bluish);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    flex-wrap: no-wrap;
+    align-items: flex-end;
+    /* border: 2px black solid; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.home-header1{
+    margin-top: calc((3.5rem + 10vw) * 1);
+}
+.home-header2{
+    margin-top: calc((3.5rem + 10vw) * -0.6);
+    text-align: right;
+}
+
+#bg-title{
+    font-size:clamp(10rem, 6rem + 20vw ,25rem);
+    color: var(--btitle);
+    margin-right: 0;
+    z-index: 0;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    /* text-transform: uppercase; */
+}
+
+#bg-header1{
+    margin-top: 0;
+}
+
+#bg-header2{
+    margin-top: calc((6rem + 20vw) * -0.8);
+}
+
+.side-img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: flex-end;
+    z-index:0;
+}
+
+.blocks {
+    margin-left: calc((0.5rem + 3vw) * -0.8);
+    /* border: 2px solid var(--blue); */
+    height: calc((0.5rem + 3vw) * 10);
+    width: calc((0.5rem + 3vw) * 10);
+    vertical-align: bottom;
+    margin-bottom: calc((0.5rem + 3vw) * -1.5);
+}
+
+.scroller{
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+    text-transform: lowercase;
+}
+
+.parallax {
+    /* overflow: hidden; */
+    letter-spacing: -2px;
+    line-height: 0.8;
+    margin: 0;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+.abt-link:hover{
+    text-decoration: none;
+}
+

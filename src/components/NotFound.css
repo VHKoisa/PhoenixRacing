@@ -1,0 +1,38 @@
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .not-found-title {
+    font-size: 120px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .not-found-message {
+    font-size: 32px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .not-found-description {
+    font-size: 18px;
+    color: #6e6e73;
+    margin-bottom: 30px;
+  }
+  
+  .not-found-link {
+    font-size: 20px;
+    color: var(--bluish);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .not-found-link:hover {
+    text-decoration: underline;
+  }
+  

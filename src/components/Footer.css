@@ -1,0 +1,20 @@
+.logo-section h6{
+    font-family: 'Racing Sans One', cursive;
+    color:var(--bluish);
+    font-size:24px;
+}
+
+.footer-section h5, p{
+    font-family: 'Raleway',sans-serif;
+}
+.footer-section h5 {
+    color: var(--bluish);
+}
+
+.footer-section a{
+    color: #6E6E73;
+}
+
+.footer-section a:hover{
+    color: var(--bluish);
+}

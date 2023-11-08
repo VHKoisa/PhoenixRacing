@@ -1,0 +1,83 @@
+.eve-title{
+    margin-top:calc((1rem + 5vw) * 0.6);
+    font-size: var(--header);
+    color: var(--bluish);
+    font-variant: small-caps;
+}
+
+.eve-infoparent {
+    margin-top:calc((1rem + 5vw) * 0.2);
+    border-top: solid #0072BB 2px;
+    border-bottom: solid #0072BB 1px;
+    /* padding-bottom: 3vh; */
+    font-family: 'Raleway', sans-serif;
+    margin-bottom:calc((1rem + 5vw) * 0.3);
+}
+.eve-info1 {
+    /* background-color: chocolate; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    border-bottom: solid #0072BB 1px;
+}
+.eve-name {
+    /* background-color: darkblue; */
+    display: flex;
+    flex-direction: row;
+    width: 35vw;
+    margin-left: 3vw;
+    padding: 2vw;
+    color: #0072BB;
+    column-gap: calc((1.5vw + 1rem));
+    align-items: center;
+    justify-content: flex-start;
+}
+.eve-name>p{
+    font-size: var(--body);
+    font-weight: 400;
+}
+
+.eve-name>h3{
+    font-weight: 700;
+}
+
+.eve-detail {
+    /* background-color: antiquewhite; */
+    width: 65vw;
+    height:100%;
+    padding: 2vw;
+    text-align: left;
+}
+.eve-detail>h3 {
+    color: #0072BB;
+    font-weight: 500;
+}
+
+.eve-detail>h4{
+    font-size: var(--body);
+    font-weight: 400;
+}
+@media only screen and (max-width : 768px) {
+    .eve-info1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .eve-name {
+        margin-left: 0;
+        width: 80vw;
+        padding: 1.5vh;
+        justify-content: center;
+    }
+    .eve-name>p{
+        justify-self: flex-start;
+    }
+    .eve-detail {
+        width: 80vw;
+        padding: 2vh;
+        text-align: center;
+    }
+}

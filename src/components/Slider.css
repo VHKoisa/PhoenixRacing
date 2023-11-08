@@ -1,0 +1,33 @@
+.logos-container {
+    width: 80vw;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top:calc((1rem + 5vw) * 0.3);
+}
+
+.logos-slider {
+    width: 10000vw;
+    /* Set a large width to accommodate all slides */
+    display: flex;
+    animation: slide 1500s linear infinite;
+}
+
+.logos-slide {
+    display: flex;
+    column-gap: 2rem;
+}
+
+.logos-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

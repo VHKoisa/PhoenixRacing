@@ -1,0 +1,31 @@
+.gallery {
+    margin-top: calc((1rem + 5vw) * 0.3);
+    width:80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 10vw; */
+}
+
+.gallery-item {
+    flex-basis: calc(33.33% - 30px);
+    padding-bottom: 5%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery-item:not(:last-child) {
+    margin-right: 30px;
+    margin-bottom: 25px;
+}
+
+
+@media (max-width: 768px) {
+    .gallery-item {
+        flex-basis: calc(100% - 10px);
+    }
+}

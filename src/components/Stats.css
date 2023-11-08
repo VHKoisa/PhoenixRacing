@@ -1,0 +1,8 @@
+.stats-num {
+    font-size: var(--header);
+}
+
+.stats-heading {
+    color: var(--bluish);
+    font-weight: 500;
+}
