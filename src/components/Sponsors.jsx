@@ -7,6 +7,7 @@ import { Helmet } from 'react-helmet';
 
 const Sponsors = () => {
     const currentSponsors = [
+        {url:"sponsors/2023-24/nanavati-toyota-logo.jpg", title: "", link: "https://nanavatitoyota.com/"},
         { url: 'sponsors/2023-24/20230116_Bender_LOGO_Yellow.png', title: 'Image 1', linl: "https://www.bender-in.com/" },
         { url: 'sponsors/2023-24/agni-logo.png', title: 'Image 2', link: "https://www.agnimotors.com/" },
         { url: 'sponsors/2023-24/ansys.png', title: 'Image 3', link: "https://www.ansys.com/en-in" },
