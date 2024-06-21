@@ -29,7 +29,7 @@ export default function Navbar() {
         <MDBNavbarBrand href='/home' className='d-flex align-items-end flex-nowrap'>
           <span className="nav-logo">
             <img src='./logo.png' alt='logo'></img>
-            <h6>SAE Phoenix Racing</h6>
+            <h6>SAE Phoenix Racing Club</h6>
           </span>
         </MDBNavbarBrand>
         <MDBNavbarToggler
